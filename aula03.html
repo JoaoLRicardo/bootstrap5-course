@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <h1>Aula 03</h1>
+
+    <form action="">
+
+      <label for="username" class="form-label">Nome de usuário</label>
+      <input id="username" type="text" class="form-control" placeholder="Username">
+      <div class="form-text">
+        Este campo não pode conter caracteres especíais.
+      </div>
+
+      <hr>
+
+      <!-- Tamanhos de componentes do formulário -->
+      <input type="text" id="city" class="form-control" value="Curitiba" disabled>
+      <br>
+      <input type="text" id="city" class="form-control form-control-lg" value="Curitiba" disabled>
+      <br>
+      <input type="text" id="city" class="form-control form-control-sm" value="Curitiba" disabled>
+      <br>
+
+      <!-- Envio de arquivos -->
+
+      <input class="form-control form-control-sm" type="file" name="" id="">
+      <br>
+
+      <!-- Cores - Color Picker -->
+      <input type="color" name="" id="" class="form-control form-control-color">
+      <br>
+
+      <!-- Componentes de SELEÇÃO - select -->
+      <select name="" id="" class="form-select form-select-sm">
+        <option value="">Curitiba</option>
+        <option value="">Porto Alegre</option>
+        <option value="">São Paulo</option>
+      </select>
+      <br>
+
+      <!-- Checkboxes e Radiobuttons's -->
+      <p>
+        Selecione os cursos de seu interesse:
+      </p>
+      <input type="checkbox" name="" id="html-css-js" class="form-check-input" value="HTML, CSS E JS">
+      <label for="html-css-js">HTML, CSS e JS</label>
+      <br>
+      <input type="checkbox" name="" id="react-js" class="form-check-input" value="react-js">
+      <label for="react-js">React JS</label>
+
+      <hr>
+      <p>
+        Qual a sua disponibilidade para as aulas (turno):
+      </p>
+      <input type="radio" name="turno" id="manha" class="form-check-input" value="manhã">
+      <label for="manha">Manhã</label>
+      <br>
+      <input type="radio" name="turno" id="tarde" class="form-check-input" value="tarde">
+      <label for="tarde">Tarde</label>
+      <br>
+      <input type="radio" name="turno" id="noite" class="form-check-input" value="noite">
+      <label for="noite">Noite</label>
+      <hr>
+
+      <!-- Switch -->
+      <p>
+        Configurações de perfil:
+      </p>
+      <div class="form-check form-switch">
+        <input type="checkbox" name="" id="" class="form-check-input">
+      </div>
+
+    </form>
+
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
